@@ -1,6 +1,5 @@
 <?php
 require_once "autoload.php";
-require_once "yxmingy/crypt.php";
 $b = new \yxmingy\board\CustomBoard(25,25);
 $f = $b->addRectangle(5,5,15,15);
 $t = $b->addLabel(5,19,10,21);
